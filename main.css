@@ -30,8 +30,8 @@ img.ic:hover{
 a:hover{
     background-color: dodgerblue;
     padding: 15px;
-    padding-top: 30px;
-    font-size: 22px;
+    padding-top: 15px;
+    font-size: 28px;
 }
 a.big{
     font-size: 36px;
@@ -39,6 +39,37 @@ a.big{
 img.profile{
     padding: 5px;
 }
-a.nh:hover{
+nav a.nh{
 padding: 10px;
 }
+/* CSS file */
+footer {
+    margin-top: 3px solid rgb(131, 131, 131) ;
+    background-color: rgba(0, 0, 0, 0.881);
+    padding: 20px;
+    text-align: center;
+    color: white
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  footer ul li a:hover{
+    
+  }
