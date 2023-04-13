@@ -32,6 +32,7 @@ a:hover{
     padding: 15px;
     padding-top: 15px;
     font-size: 28px;
+    opacity:50%;
 }
 a.big{
     font-size: 36px;
