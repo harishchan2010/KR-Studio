@@ -37,7 +37,7 @@ a.big{
     font-size: 36px;
 }
 img.profile{
-    padding: 5px;
+    margin: 5px;
 }
 nav a.nh{
 padding: 10px;
@@ -70,4 +70,22 @@ footer {
     color: #ffffff;
     text-decoration: none;
   }
- 
+  #lognbtn{
+    border: #ffffff 3px solid;
+    text-align: right;
+  }
+  button{
+    border: #ffffff 2px solid;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 22pt;
+  }
+  button:hover{
+    color: hsla(0, 0%, 100%, 0.859);
+    color: #ffffff9d;
+  }
+  form{
+    margin: 10px;
+  }
