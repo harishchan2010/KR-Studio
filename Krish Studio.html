@@ -62,7 +62,21 @@
 </html>
 
 </div>
-		
+	<script>function shareImage() {
+  var imageUrl = "https://example.com/image.jpg";
+  if (navigator.share) {
+    navigator.share({
+      title: "Share Image",
+      text: "Check out this image!",
+      url: imageUrl,
+    })
+      .then(() => console.log("Image shared successfully."))
+      .catch((error) => console.error("Error sharing image:", error));
+  } else {
+    console.log("Web Share API not supported in this browser.");
+  }
+}
+</script>  	
 
 
 	</head>
