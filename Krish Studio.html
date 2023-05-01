@@ -3,7 +3,19 @@
 <head>
 	<link rel="stylesheet" href="main.css">
 	<script src="javascript.js">
-		
+		function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+
+   
+     if (username == "krishfans.fans@krstudio.in" && password == "Onthebgm") {
+        document.getElementById("content2").style.display = "block";
+        document.getElementById("login").style.display = "none"
+    } else {
+        alert("Incorrect username or password");
+    }
+}
 	</script>
 </head>
 <body><form id="login">
