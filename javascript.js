@@ -18,11 +18,12 @@ function logout1(){
     document.getElementById("logout").style.display = "block"
 }
 
-}
+
 function hide1(){
     document.getElementById("hide1").style.display = "none"
     document.getElementById("hidebtn1").style.display = "none"
 }
+
 function logout2(){
     document.getElementById("content2").style.display = "none"
      document.getElementById("logout2").style.display = "block"
